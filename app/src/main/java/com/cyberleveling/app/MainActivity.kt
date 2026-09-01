@@ -8,6 +8,8 @@ import androidx.compose.material3.Surface
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import com.cyberleveling.core.theme.CyberLevelingTheme
+// Make sure to import your DashboardScreen here once it is created
+import com.cyberleveling.dashboard.DashboardScreen 
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
@@ -26,5 +28,10 @@ class MainActivity : ComponentActivity() {
 
 @Composable
 private fun AppRoot() {
-    // Placeholder root for the app shell.
+    // We replaced the empty placeholder with your actual starting Dashboard UI
+    DashboardScreen(
+        playerLevel = 1,
+        playerRank = "Script Kiddie",
+        totalXp = 0L
+    )
 }
