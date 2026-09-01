@@ -1,0 +1,10 @@
+# Gradle
+.gradle/
+**/build/
+
+# Local Android configuration
+local.properties
+
+# IDE
+.idea/
+*.iml
