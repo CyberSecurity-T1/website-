@@ -8,7 +8,7 @@
         android:label="Cyber Leveling"
         android:roundIcon="@android:drawable/sym_def_app_icon"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Material3.DayNight.NoActionBar">
+        android:theme="@android:style/Theme.DeviceDefault.NoActionBar">
         <activity
             android:name="com.cyberleveling.app.MainActivity"
             android:exported="true">
