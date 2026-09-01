@@ -28,10 +28,6 @@ class MainActivity : ComponentActivity() {
 
 @Composable
 private fun AppRoot() {
-    // We replaced the empty placeholder with your actual starting Dashboard UI
-    DashboardScreen(
-        playerLevel = 1,
-        playerRank = "Script Kiddie",
-        totalXp = 0L
-    )
+    // Display the Dashboard screen with ViewModel injected by Hilt
+    DashboardScreen()
 }
